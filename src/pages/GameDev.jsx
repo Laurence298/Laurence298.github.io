@@ -51,7 +51,7 @@ export default function GameDev() {
               <div className="flex flex-col lg:flex-row h-full p-4 sm:p-8 gap-6">
                 {/* Image Section */}
                 <div
-                  className={`lg:w-1/2 flex items-center justify-center bg-gray-100 rounded-lg overflow-hidden p-4 ${
+                  className={`lg:w-1/2 flex items-center justify-center  rounded-lg overflow-hidden p-4 ${
                     !file.image && !file.video ? "hidden" : ""
                   }`}
                 >
@@ -59,7 +59,7 @@ export default function GameDev() {
                     <img
                       src={file.image}
                       alt={file.title}
-                      className="max-h-[400px] w-auto object-contain"
+                      className="h-full w-full w-auto object-contain"
                     />
                   ) : file.video ? (
                     <div

@@ -1,19 +1,15 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
-import { Route, Routes } from "react-router";
 import GameDev from "./pages/GameDev";
 import { NavbarContextProvider } from "./components/Hook";
+// import other pages here as needed
 
 function App() {
   return (
-    <>
-      <NavbarContextProvider>
-        <Navbar />
-        <GameDev />
-      </NavbarContextProvider>
-    </>
+    <NavbarContextProvider>
+      <Navbar />
+      <GameDev />
+    </NavbarContextProvider>
   );
 }
 

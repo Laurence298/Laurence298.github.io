@@ -51,8 +51,9 @@
     ]
   },
   {
+    "image": "EgoArena.png",
     "title": "Ego Arena",
-    "description": "YI collaborated with five other developers to create Ego Arena, a two-player fighting game where you type insults to attack each other. Since we had enough programmers, I adapted to an art role and contributed by creating:",
+    "description": "I collaborated with five other developers to create Ego Arena, a two-player fighting game where you type insults to attack each other. Since we had enough programmers, I adapted to an art role and contributed by creating:",
     "tasks":[
       {
       "task": "Background art"
@@ -66,7 +67,7 @@
         "url": "https://globalgamejam.org/games/2025/ego-arena-5"
         }
     ],
-    "linkName": ""
+    "linkName": "Play At"
   },
   {
     "title": "itch.io",
