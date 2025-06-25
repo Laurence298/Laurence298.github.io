@@ -8,9 +8,10 @@ export function useNavbarContext() {
 
 export function NavbarContextProvider({ children }) {
   const [Index, setIndex] = useState(0);
+  const [Clicked, SetClicked] = useState(false);
 
   return (
-    <NavBarContext.Provider value={{ Index, setIndex }}>
+    <NavBarContext.Provider value={{ Index, Clicked, SetClicked, setIndex }}>
       {children}
     </NavBarContext.Provider>
   );

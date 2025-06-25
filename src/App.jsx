@@ -1,14 +1,15 @@
-import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar";
-import GameDev from "./pages/GameDev";
 import { NavbarContextProvider } from "./components/Hook";
+import ListView from "./pages/Listview";
+import AboutMe from "./pages/aboutme";
 // import other pages here as needed
 
 function App() {
   return (
     <NavbarContextProvider>
       <Navbar />
-      <GameDev />
+      <AboutMe />
+      <ListView />
     </NavbarContextProvider>
   );
 }

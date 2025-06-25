@@ -1,9 +1,8 @@
 import { useNavbarContext } from "./Hook";
 
 var menu = [
-  { index: 0, title: "About Me" },
-  { index: 1, title: "Home" },
-  { index: 2, title: "Projects" },
+  { index: 0, title: "Home" },
+  { index: 2, title: "Resume" },
 ];
 
 export default function Navbar() {
@@ -23,9 +22,10 @@ export default function Navbar() {
 }
 
 function ListItem({ item }) {
-  const { setIndex } = useNavbarContext();
+  const { setIndex, SetClicked } = useNavbarContext();
 
   const handleClick = () => {
+    SetClicked(true);
     setIndex(item.index);
   };
   return (
