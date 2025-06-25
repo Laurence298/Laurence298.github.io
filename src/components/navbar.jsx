@@ -27,7 +27,17 @@ function ListItem({ item }) {
   const handleClick = () => {
     SetClicked(true);
     setIndex(item.index);
+
+    if (item.title === "Resume") {
+      const pdfWindow = window.open("/Resume.pdf", "_blank");
+      if (pdfWindow) {
+        pdfWindow.addEventListener("load", () => {
+          pdfWindow.focus();
+        });
+      }
+    }
   };
+
   return (
     <li onClick={handleClick}>
       <a

@@ -5,35 +5,53 @@
       "id": 2,
       "title": "Bright burn",
       "description": "A 2D action fighting game built with unity",
-      "details": "Bright Burn** was a 3-month university senior project where I developed a game solo using Unity. I was responsible for programming the character and game logic, as well as designing the overall game experience.",
+      "details":[
+        "Developed a 2D action fighting game using Unity, focusing on character movement, combat mechanics, and level design.",
+        "Implemented player controls, enemy AI, and health systems to create an engaging gameplay experience.",
+        "Designed and balanced levels to provide a challenging yet enjoyable experience for players."
+      ],
       "technologies": ["Unity", "C#"],
       "Link": "https://sadslothh.itch.io/bright-burn",
-      "live": "https://www.youtube.com/embed/SvnV1eUTaz4?si=w-dQGQmgyumKIJvw"
+      "live": "https://www.youtube.com/embed/SvnV1eUTaz4?si=w-dQGQmgyumKIJvw",
+      "category": "GameDevelopment"
     },
     {
     "id": 3,
     "title": "Sacrilegious Invasion",
     "description": "A 3D shooter built in Unity for a game jam",
-    "details": "Developed during a one-week game jam as part of a team. I was responsible for programming core gameplay systems, including player movement, shooting mechanics, enemy AI, and health systems. Collaborated with teammates on level layout and rapid iteration under tight time constraints.",
-    "technologies": ["Unity", "C#"],
+     "details":[
+        "Developed a 2D action fighting game using Unity, focusing on character movement, combat mechanics, and level design.",
+        "Implemented player controls, enemy AI, and health systems to create an engaging gameplay experience.",
+        "Designed and balanced levels to provide a challenging yet enjoyable experience for players."
+      ],    "technologies": ["Unity", "C#"],
     "Link": "https://sadslothh.itch.io/sacrilegious-invasion",
-    "live": "https://www.youtube.com/embed//OhQvmn-UhNc?si=TJMftLEfK7hGq3na"
+    "live": "https://www.youtube.com/embed//OhQvmn-UhNc?si=TJMftLEfK7hGq3na",
+    "category": "GameDevelopment"
+
     }
     ,
      {
     "id": 4,
-    "title": "Game Development Projects",
-    "description": "Check out the rest of my game development projects",
-    "Link": "https://sadslothh.itch.io"
+    "title": "Itch.io Projects",
+    "description": "Check out the rest of my game development projects on itch.io",
+    "Link": "https://sadslothh.itch.io",
+    "quickView": true,
+    "category": "GameDevelopment"
+
 
     },
     {
     "id": 5,
     "title": "The Waywards",
     "description": "A Website for uploading short stories",
-    "details": "Using react router i developed a website for uploading short stories. The website is built with React and uses Payload CMS for content management, allowing me to create, edit, and manage their stories easily.",
-    "technologies": ["React", "React Router","sqlite","payload CMS"],
-    "Link": "https://waywards.net/"
+    "details":[
+        "Developed a 2D action fighting game using Unity, focusing on character movement, combat mechanics, and level design.",
+        "Implemented player controls, enemy AI, and health systems to create an engaging gameplay experience.",
+        "Designed and balanced levels to provide a challenging yet enjoyable experience for players."
+      ],    "technologies": ["React", "React Router","sqlite","payload CMS"],
+    "Link": "https://waywards.net/",
+    "category": "WebDevelopment"
+
 
     }
   ]
