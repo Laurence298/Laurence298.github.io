@@ -1,8 +1,9 @@
+import { link } from "framer-motion/client";
 import { useNavbarContext } from "./Hook";
 
 var menu = [
-  { index: 0, title: "Home" },
-  { index: 2, title: "Resume" },
+  { index: 0, title: "Home", link: "#" },
+  { index: 2, title: "Resume", link: "/" },
 ];
 
 export default function Navbar() {
@@ -42,7 +43,7 @@ function ListItem({ item }) {
     <li onClick={handleClick}>
       <a
         className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50 rounded-md transition-colors duration-200 sm:text-base sm:px-4"
-        href="#"
+        href={item.link}
       >
         {item.title}
       </a>

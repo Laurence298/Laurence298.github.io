@@ -4,53 +4,47 @@
    {
       "id": 2,
       "title": "Bright burn",
-      "description": "A 2D action fighting game built with unity",
+      "description": "A 2D action fighting game built with unity for my university project",
       "details":[
-        "Developed a 2D action fighting game using Unity, focusing on character movement, combat mechanics, and level design.",
-        "Implemented player controls, enemy AI, and health systems to create an engaging gameplay experience.",
-        "Designed and balanced levels to provide a challenging yet enjoyable experience for players."
-      ],
+        "Developed character behavior and combat systems using state machines in Unity (C#), implementing movement, attacks, and transitions between gameplay states.",
+        "Designed and balanced core game mechanics, including damage scaling, and movement, to deliver a polished and engaging gameplay loop."
+          ],
       "technologies": ["Unity", "C#"],
       "Link": "https://sadslothh.itch.io/bright-burn",
       "live": "https://www.youtube.com/embed/SvnV1eUTaz4?si=w-dQGQmgyumKIJvw",
-      "category": "GameDevelopment"
+      "category": "GameDevelopment",
+      "Liked": "This project was a great opportunity to learn about 3D game development, including camera controls, 3D physics, and level design. i also learned to work with a team",
+      "about": "Bright Burn is a 2D fighter I developed independently for my senior project in university. Inspired by games like Street Fighter, I wanted to create an accessible fighting game that was easy to pick up but had depth, especially because I didn't have much time to learn new fighting games."
+
     },
     {
     "id": 3,
     "title": "Sacrilegious Invasion",
     "description": "A 3D shooter built in Unity for a game jam",
      "details":[
-        "Developed a 2D action fighting game using Unity, focusing on character movement, combat mechanics, and level design.",
-        "Implemented player controls, enemy AI, and health systems to create an engaging gameplay experience.",
-        "Designed and balanced levels to provide a challenging yet enjoyable experience for players."
-      ],    "technologies": ["Unity", "C#"],
+        "Programmed the player movement and mechanics, including shooting and locomotion",
+        "Implemented a wave-based system to spawn enemies dynamically over time",
+        "Rigged a 3D model to hold and aim a gun, used animation layers to execute specific animations."
+      ],    
+    "technologies": ["Unity", "C#"],
     "Link": "https://sadslothh.itch.io/sacrilegious-invasion",
     "live": "https://www.youtube.com/embed//OhQvmn-UhNc?si=TJMftLEfK7hGq3na",
-    "category": "GameDevelopment"
+    "category": "GameDevelopment",
+    "Liked": "This project was a great opportunity to learn about 3D game development, including camera controls, 3D physics, and level design. i also learned to work with a team",
+    "about": "Sacrilegious Invasion was my first exposure to 3D development. I worked in a team of three as the lead programmer. Our goal was to create a wave survival game, similar to Call of Duty Zombies, within one week for a game jam."
+
 
     }
     ,
      {
     "id": 4,
-    "title": "Itch.io Projects",
+    "title": "Other Game Projects",
     "description": "Check out the rest of my game development projects on itch.io",
+    "about": "The rest of my projects are available on itch.io. For these projects, I have been responsible for either programming and design, using the Unity or Godot game engines based on my team’s needs. The link to my itch.io page is below.",
     "Link": "https://sadslothh.itch.io",
-    "quickView": true,
+    "technologies": ["Unity", "C#", "Godot", "GDScript"],
+    "quickView": false,
     "category": "GameDevelopment"
-
-
-    },
-    {
-    "id": 5,
-    "title": "The Waywards",
-    "description": "A Website for uploading short stories",
-    "details":[
-        "Developed a 2D action fighting game using Unity, focusing on character movement, combat mechanics, and level design.",
-        "Implemented player controls, enemy AI, and health systems to create an engaging gameplay experience.",
-        "Designed and balanced levels to provide a challenging yet enjoyable experience for players."
-      ],    "technologies": ["React", "React Router","sqlite","payload CMS"],
-    "Link": "https://waywards.net/",
-    "category": "WebDevelopment"
 
 
     }

@@ -54,6 +54,8 @@ function ListView() {
         github={selected?.Link}
         live={selected?.live}
         onClose={() => setSelected(null)}
+        about={selected?.about}
+        like={selected?.like}
       />
     </div>
   );

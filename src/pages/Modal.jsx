@@ -9,6 +9,8 @@ function Modal({
   technologies,
   github,
   live,
+  about,
+  like,
 }) {
   if (!isOpen) return null;
 
@@ -31,17 +33,23 @@ function Modal({
             {description}
           </p>
 
+          {about && (
+            <section className="mb-6">
+              <h3 className="text-2xl font-semibold mb-2">About</h3>
+              <p className="text-gray-700 mb-2 text-lg">{about}</p>
+            </section>
+          )}
+
           {details && (
             <section className="mb-6">
               <h3 className="text-2xl font-semibold mb-2">My Role</h3>
               {details.map((detail, i) => (
-                <p key={i} className="text-gray-700 mb-2">
+                <p key={i} className="text-gray-700 text-lg mb-2">
                   <span className="font-semibold">{i + 1}. </span> {detail}
                 </p>
               ))}
             </section>
           )}
-
           {technologies?.length > 0 && (
             <section className="mb-6">
               <h3 className="text-2xl font-semibold mb-2">Technologies</h3>
@@ -49,7 +57,7 @@ function Modal({
                 {technologies.map((tech, i) => (
                   <span
                     key={i}
-                    className="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
+                    className="bg-blue-200 text-blue-800  px-3 py-1 rounded-full text-lg font-medium"
                   >
                     {tech}
                   </span>
