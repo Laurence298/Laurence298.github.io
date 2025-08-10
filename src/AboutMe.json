@@ -1,6 +1,19 @@
 {
   "projects": [
-   
+   {
+      "id": 1,
+      "title": "Work Order Management System",
+      "description": "A Rails application for managing work orders",
+      "details":[
+        "Developed a full-stack Rails application to efficiently manage work orders through features such as creating, updating, and deleting orders. Implemented user-friendly interfaces allowing users to easily schedule, track, and modify order dates."
+        ,"Understood the customer's requirements and translated them into technical specifications, ensuring the application met their needs effectively."
+          ],
+      "technologies": ["Rails", "Ruby", "PostgreSQL"],
+      "Link": "https://github.com/Laurence298/Work-Order-Service",
+      "category": "AppDevelopment",
+      "about": "A friend was interested in a work order app to manage orders for their small business. Having been exploring Rails for some time, I saw this project as a great opportunity to apply and deepen my knowledge of the framework."
+
+    },
    {
       "id": 2,
       "title": "Bright burn",
