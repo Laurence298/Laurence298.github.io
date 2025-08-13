@@ -13,9 +13,11 @@ function AboutMe() {
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-bold mb-2">Hello!</h2>
           <p className="text-gray-700 text-base leading-relaxed">
-            Hi! My names Laurence and I'm a game designer and Programmer . I
-            have a passion for crafting engaging and memorable Gameplay systems.
-            Im looking for work as a game designer or Programmer.
+            Hi! My name’s Laurence, and I’m a game designer and programmer with
+            a passion for crafting games. While my main focus is game
+            development, I’m also interested in applying my skills to other
+            areas, such as app development. I’m looking for opportunities as a
+            game designer, programmer, or in related roles.
           </p>
         </div>
       </section>
