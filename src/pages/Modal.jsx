@@ -10,6 +10,7 @@ function Modal({
   github,
   live,
   about,
+  link2,
   like,
 }) {
   if (!isOpen) return null;
@@ -76,6 +77,18 @@ function Modal({
               >
                 <span className="p-3 border border-blue-700 rounded hover:bg-blue-700 hover:text-white transition-colors">
                   View Project
+                </span>
+              </a>
+            )}
+            {link2 && (
+              <a
+                href={link2}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-700 hover:underline"
+              >
+                <span className="p-3 border border-blue-700 rounded hover:bg-blue-700 hover:text-white transition-colors">
+                  Demo
                 </span>
               </a>
             )}

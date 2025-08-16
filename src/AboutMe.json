@@ -10,6 +10,7 @@
           ],
       "technologies": ["Rails", "Ruby", "PostgreSQL"],
       "Link": "https://github.com/Laurence298/Work-Order-Service",
+      "Demo": "https://drive.google.com/file/d/1P58N8rOgl-C2fELrU3v2A_Q-Gn1Sa89r/view?usp=sharing",
       "category": "AppDevelopment",
       "about": "A friend was interested in a work order app to manage orders for their small business. Having been exploring Rails for some time, I saw this project as a great opportunity to apply and deepen my knowledge of the framework."
 
