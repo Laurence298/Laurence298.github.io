@@ -1,4 +1,3 @@
-import { link } from "framer-motion/client";
 import { useNavbarContext } from "../contexts/NavbarContext";
 
 var menu = [
@@ -8,10 +7,10 @@ var menu = [
 
 export default function Navbar() {
   return (
-    <nav className="w-full bg-white/90 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6">
+    <nav className="bg-[#1B3C53] sticky top-0 z-50 shadow-md">
+      <div className="max-w-6xl mx-auto px-4">
         <div className="flex items-center justify-center h-16">
-          <ul className="flex flex-wrap items-center justify-center gap-1 sm:gap-2">
+          <ul className="flex items-center gap-1">
             {menu.map((item, index) => (
               <ListItem key={index} item={item} />
             ))}
@@ -42,7 +41,7 @@ function ListItem({ item }) {
   return (
     <li onClick={handleClick}>
       <a
-        className="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-indigo-600 hover:bg-gray-50 rounded-md transition-colors duration-200 sm:text-base sm:px-4"
+        className="block px-6 py-2 text-sm font-medium text-white hover:bg-[#234C6A] rounded-md transition-colors duration-200"
         href={item.link}
       >
         {item.title}
