@@ -1,66 +1,98 @@
 {
   "projects": [
-   {
+    {
       "id": 1,
       "title": "Work Order Management System",
       "description": "A Rails application for managing work orders",
-      "details":[
-        "Developed a full-stack Rails application to efficiently manage work orders through features such as creating, updating, and deleting orders. Implemented user-friendly interfaces allowing users to easily schedule, track, and modify order dates."
-        ,"Understood the customer's requirements and translated them into technical specifications, ensuring the application met their needs effectively."
-          ],
-      "technologies": ["Rails", "Ruby", "PostgreSQL"],
+      "details": [
+        "Developed a full-stack Rails application to efficiently manage work orders through features such as creating, updating, and deleting orders. Implemented user-friendly interfaces allowing users to easily schedule, track, and modify order dates.",
+        "Understood the customer's requirements and translated them into technical specifications, ensuring the application met their needs effectively."
+      ],
+      "technologies": [
+        "Rails",
+        "Ruby",
+        "PostgreSQL"
+      ],
       "Link": "https://github.com/Laurence298/Work-Order-Service",
       "Demo": "https://drive.google.com/file/d/1P58N8rOgl-C2fELrU3v2A_Q-Gn1Sa89r/view?usp=sharing",
       "category": "AppDevelopment",
       "about": "A friend was interested in a work order app to manage orders for their small business. Having been exploring Rails for some time, I saw this project as a great opportunity to apply and deepen my knowledge of the framework."
-
     },
-   {
+    {
       "id": 2,
       "title": "Bright burn",
       "description": "A 2D action fighting game built with unity for my university project",
-      "details":[
+      "details": [
         "Developed character behavior and combat systems using state machines in Unity (C#), implementing movement, attacks, and transitions between gameplay states.",
         "Designed and balanced core game mechanics, including damage scaling, and movement, to deliver a polished and engaging gameplay loop."
-          ],
-      "technologies": ["Unity", "C#"],
+      ],
+      "technologies": [
+        "Unity",
+        "C#"
+      ],
       "Link": "https://sadslothh.itch.io/bright-burn",
       "live": "https://www.youtube.com/embed/SvnV1eUTaz4?si=w-dQGQmgyumKIJvw",
       "category": "GameDevelopment",
       "Liked": "This project was a great opportunity to learn about 3D game development, including camera controls, 3D physics, and level design. i also learned to work with a team",
       "about": "Bright Burn is a 2D fighter I developed independently for my senior project in university. Inspired by games like Street Fighter, I wanted to create an accessible fighting game that was easy to pick up but had depth, especially because I didn't have much time to learn new fighting games."
-
     },
     {
-    "id": 3,
-    "title": "Sacrilegious Invasion",
-    "description": "A 3D shooter built in Unity for a game jam",
-     "details":[
+      "id": 3,
+      "title": "Sacrilegious Invasion",
+      "description": "A 3D shooter built in Unity for a game jam",
+      "details": [
         "Programmed the player movement and mechanics, including shooting and locomotion",
         "Implemented a wave-based system to spawn enemies dynamically over time",
         "Rigged a 3D model to hold and aim a gun, used animation layers to execute specific animations."
-      ],    
-    "technologies": ["Unity", "C#"],
-    "Link": "https://sadslothh.itch.io/sacrilegious-invasion",
-    "live": "https://www.youtube.com/embed//OhQvmn-UhNc?si=TJMftLEfK7hGq3na",
-    "category": "GameDevelopment",
-    "Liked": "This project was a great opportunity to learn about 3D game development, including camera controls, 3D physics, and level design. i also learned to work with a team",
-    "about": "Sacrilegious Invasion was my first exposure to 3D development. I worked in a team of three as the lead programmer. Our goal was to create a wave survival game, similar to Call of Duty Zombies, within one week for a game jam."
-
-
-    }
-    ,
-     {
-    "id": 4,
-    "title": "Other Game Projects",
-    "description": "Check out the rest of my game development projects on itch.io",
-    "about": "The rest of my projects are available on itch.io. For these projects, I have been responsible for either programming and design, using the Unity or Godot game engines based on my team’s needs. The link to my itch.io page is below.",
-    "Link": "https://sadslothh.itch.io",
-    "technologies": ["Unity", "C#", "Godot", "GDScript"],
-    "quickView": false,
-    "category": "GameDevelopment"
-
-
+      ],
+      "technologies": [
+        "Unity",
+        "C#"
+      ],
+      "Link": "https://sadslothh.itch.io/sacrilegious-invasion",
+      "live": "https://www.youtube.com/embed//OhQvmn-UhNc?si=TJMftLEfK7hGq3na",
+      "category": "GameDevelopment",
+      "Liked": "This project was a great opportunity to learn about 3D game development, including camera controls, 3D physics, and level design. i also learned to work with a team",
+      "about": "Sacrilegious Invasion was my first exposure to 3D development. I worked in a team of three as the lead programmer. Our goal was to create a wave survival game, similar to Call of Duty Zombies, within one week for a game jam."
+    },
+    {
+      "id": 4,
+      "title": "Other Game Projects",
+      "description": "Check out the rest of my game development projects on itch.io",
+      "about": "The rest of my projects are available on itch.io. For these projects, I have been responsible for either programming and design, using the Unity or Godot game engines based on my team’s needs. The link to my itch.io page is below.",
+      "Link": "https://sadslothh.itch.io",
+      "technologies": [
+        "Unity",
+        "C#",
+        "Godot",
+        "GDScript"
+      ],
+      "quickView": false,
+      "category": "GameDevelopment"
+    },
+    {
+      "id": 5,
+      "title": "BudgetWise",
+      "description": "A web-based personal finance assistant that helps users understand their spending habits and financial behavior",
+      "details": [
+        "Developed features for uploading and automatically categorizing bank statement transactions using AI-powered analysis",
+        "Implemented an interactive financial quiz system to evaluate users' budgeting habits with personalized AI-powered feedback",
+        "Built an AI chat assistant that provides financial recommendations based on user account data, budgets, and expenses",
+        "Collaborated with a team of 5 developers using Git for version control and Agile methodologies for project management"
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "JavaScript",
+        "Supabase",
+        "OpenAI API",
+        "Netlify",
+        "CSS"
+      ],
+      "Link": "https://github.com/MRU-F2025-COMP3504/3504-term-project-budgetwise",
+      "Demo": "https://3504-term-project-budgetwise.vercel.app/",
+      "category": "WebDevelopment",
+      "about": "BudgetWise is a university team project designed to help everyday users, students, and young adults better understand their finances. The platform reduces manual effort in analyzing bank statements and provides simple, informative feedback through AI-powered categorization and personalized recommendations."
     }
   ]
 }
