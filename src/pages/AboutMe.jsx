@@ -25,11 +25,7 @@ function AboutMe() {
                 Game Designer & Programmer
               </div>
               <p className="text-base sm:text-lg lg:text-xl text-[#456882] leading-relaxed">
-                Hi! My name's <span className="text-[#1B3C53] font-semibold">Laurence</span>, and I'm a game designer and programmer with
-                a passion for crafting engaging experiences. While my main focus is game
-                development, I'm also interested in applying my skills to other
-                areas, such as app development. I'm looking for opportunities as a
-                game designer, programmer, or in related roles.
+                Hi! I'm Laurence, a game designer and full-stack developer. I build games with Unity and C#, and web applications with React and Next.js. From designing 2D fighting mechanics to integrating AI-powered features, I love solving technical challenges and creating polished user experiences. Currently seeking opportunities in game development, software engineering, or related roles.
               </p>
             </div>
           </div>
