@@ -7,6 +7,10 @@
   --color-neutral: #E3E3E3;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   height: 100%;
@@ -18,10 +22,26 @@ body {
   background: #E3E3E3;
   color: #1B3C53;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 /* Ensure content is above the background effect */
 #root {
   position: relative;
   z-index: 1;
+  min-height: 100vh;
+}
+
+/* Responsive font sizes */
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    font-size: 18px;
+  }
 }

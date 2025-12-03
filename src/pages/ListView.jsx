@@ -28,15 +28,16 @@ function ListView() {
       <button
         onClick={() => setActiveFilter(category)}
         className={`
-          px-4 py-2 rounded-lg font-medium text-sm transition-all duration-200
+          px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg font-medium text-xs sm:text-sm transition-all duration-200
           ${isActive
             ? 'bg-[#1B3C53] text-white shadow-md'
             : 'bg-white text-[#1B3C53] hover:bg-[#234C6A] hover:text-white border border-[#456882]'
           }
         `}
       >
-        {label}
-        <span className={`ml-2 text-xs ${isActive ? 'opacity-80' : 'opacity-60'}`}>
+        <span className="hidden sm:inline">{label}</span>
+        <span className="sm:hidden">{label.replace(' Development', '').replace('All Projects', 'All')}</span>
+        <span className={`ml-1 sm:ml-2 text-xs ${isActive ? 'opacity-80' : 'opacity-60'}`}>
           ({count})
         </span>
       </button>
@@ -53,19 +54,19 @@ function ListView() {
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-4 md:p-8">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12">
       {/* Header */}
-      <div className="text-center mb-8">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#1B3C53] mb-3">
+      <div className="text-center mb-6 sm:mb-8">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#1B3C53] mb-2 sm:mb-3">
           Projects
         </h1>
-        <p className="text-[#456882] text-lg">
+        <p className="text-[#456882] text-sm sm:text-base lg:text-lg">
           Explore my work across different categories
         </p>
       </div>
 
       {/* Filter Buttons */}
-      <div className="mb-8 flex flex-wrap justify-center gap-3">
+      <div className="mb-6 sm:mb-8 flex flex-wrap justify-center gap-2 sm:gap-3">
         <FilterButton label="All Projects" category={CATEGORIES.ALL} count={counts.all} />
         <FilterButton label="Game Development" category={CATEGORIES.GAME_DEV} count={counts.gameDev} />
         <FilterButton label="Web Development" category={CATEGORIES.WEB_DEV} count={counts.webDev} />
@@ -76,7 +77,7 @@ function ListView() {
       </div>
 
       {/* Projects Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((item) =>
             item.quickView ? (
@@ -95,8 +96,8 @@ function ListView() {
             )
           )
         ) : (
-          <div className="col-span-full text-center py-16 bg-white rounded-lg shadow-sm">
-            <p className="text-[#456882] text-lg">No projects found in this category.</p>
+          <div className="col-span-full text-center py-12 sm:py-16 bg-white rounded-lg shadow-sm">
+            <p className="text-[#456882] text-base sm:text-lg">No projects found in this category.</p>
           </div>
         )}
       </div>
