@@ -1,8 +1,6 @@
-import Navbar from "./components/navbar";
-import { NavbarContextProvider } from "./components/Hook";
-import ListView from "./pages/Listview";
-import AboutMe from "./pages/aboutme";
-import Contact from "./pages/Contact";
+import { Navbar } from "./components";
+import { NavbarContextProvider } from "./contexts";
+import { ListView, AboutMe, Contact } from "./pages";
 // import other pages here as needed
 
 function App() {

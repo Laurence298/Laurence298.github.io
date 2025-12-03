@@ -1,5 +1,5 @@
 import { link } from "framer-motion/client";
-import { useNavbarContext } from "./Hook";
+import { useNavbarContext } from "../contexts/NavbarContext";
 
 var menu = [
   { index: 0, title: "Home", link: "#" },

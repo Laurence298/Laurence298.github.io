@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Modal from "./Modal";
-import Card from "./card";
-import projects from "../AboutMe.json";
+import Modal from "../components/Modal";
+import Card from "../components/Card";
+import projects from "../constants/aboutMe.json";
 import QuickCard from "../components/QuickLinkCard";
 // Assuming you have a projects.json file
 function ListView() {
