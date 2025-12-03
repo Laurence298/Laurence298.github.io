@@ -76,7 +76,7 @@ function ListView() {
       </div>
 
       {/* Projects Grid */}
-      <div className="space-y-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((item) =>
             item.quickView ? (
@@ -95,7 +95,7 @@ function ListView() {
             )
           )
         ) : (
-          <div className="text-center py-16 bg-white rounded-lg shadow-sm">
+          <div className="col-span-full text-center py-16 bg-white rounded-lg shadow-sm">
             <p className="text-[#456882] text-lg">No projects found in this category.</p>
           </div>
         )}
