@@ -3,7 +3,6 @@ import { useNavbarContext } from "../contexts/NavbarContext";
 
 var menu = [
   { index: 0, title: "Home", link: "/" },
-  { index: 2, title: "Resume", link: "/resume" },
 ];
 
 export default function Navbar() {
