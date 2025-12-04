@@ -90,7 +90,7 @@
         "CSS"
       ],
       "Link": "https://github.com/MRU-F2025-COMP3504/3504-term-project-budgetwise",
-      "Demo": "https://3504-term-project-budgetwise.vercel.app/",
+      "Demo": "https://mrubudgetwise.vercel.app/",
       "category": "WebDevelopment",
       "about": "BudgetWise is a university team project designed to help everyday users, students, and young adults better understand their finances. The platform reduces manual effort in analyzing bank statements and provides simple, informative feedback through AI-powered categorization and personalized recommendations."
     }
