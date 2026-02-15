@@ -93,6 +93,27 @@
       "Demo": "https://mrubudgetwise.vercel.app/",
       "category": "WebDevelopment",
       "about": "BudgetWise is a university team project designed to help everyday users, students, and young adults better understand their finances. The platform reduces manual effort in analyzing bank statements and provides simple, informative feedback through AI-powered categorization and personalized recommendations."
-    }
+    },
+    {
+  "id": 6,
+  "title": "SideFlick: Social Cinema Platform",
+  "description": "A dual-interface web application connecting Canadian moviegoers, featuring an administrative management portal and a public-facing social coordination tool.",
+  "details": [
+    "Architected a PHP-based administration portal for managing theatre data, movie listings, and site-wide customer analytics.",
+    "Developed an interactive JavaScript frontend allowing users to browse films, manage personal watchlists, and coordinate cinema outings with others.",
+    "Designed and implemented a custom UI/UX focused on bridging the gap between social networking and theatrical film consumption.",
+    "Engineered back-end logic to handle complex user interactions, including invitation systems and synchronized scheduling across different user roles."
+  ],
+  "Link": "https://github.com/Laurence298/SideFlick",
+  "technologies": [
+    "PHP",
+    "JavaScript",
+    "MySQL",
+    "CSS",
+    "UI/UX Design",
+    "Responsive Web Design"
+  ],
+  "category": "WebDevelopment"
+}
   ]
 }
